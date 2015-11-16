@@ -17,123 +17,121 @@ componentWillMount() {
 endsnippet
 
 snippet cwr
-  componentWillReceiveProps(nextProps) {
-    ${1}
-  }
+componentWillReceiveProps(nextProps) {
+  ${1}
+}
 endsnippet
 
 snippet cwun
-  componentWillUnmount() {
-    ${1}
-  }
+componentWillUnmount() {
+  ${1}
+}
 endsnippet
 
 snippet cwu
-  componentWillUpdate(nextProps, nextState) {
-    ${1}
-  }
+componentWillUpdate(nextProps, nextState) {
+  ${1}
+}
 endsnippet
 
 snippet cx
-  cx({
-    ${1}: ${2}
-  });
+cx({
+  ${1}: ${2}
+});
 endsnippet
 
 snippet fup
-  forceUpdate(${1:callback});
+forceUpdate(${1:callback});
+endsnippet
+
+snippet dp
+static defaultProps = {
+  $1
+}
 endsnippet
 
 snippet gdp
-  getDefaultProps() {
-    return {
-      ${1}
-    };
-  }
+getDefaultProps() {
+  return {
+    ${1}
+  };
+}
 endsnippet
 
 snippet gis
-  getInitialState() {
-    return {
-      ${1}: ${2}
-    };
-  }
+getInitialState() {
+  return {
+    ${1}: ${2}
+  };
+}
 endsnippet
 
 snippet ism
-  isMounted()
+isMounted()
 endsnippet
 
-snippet jsx
-  /**
-   * @jsx React.DOM
-   */
 snippet pt
-  propTypes: {
-    ${1}: React.PropTypes.${2:string}
-  }
+static propTypes = {
+  ${1}: React.PropTypes.${2:string}
+}
 endsnippet
 
 snippet rcc
-  /**
-   * @jsx React.DOM
-   */
+import React, { PropTypes, Component } from 'react';
 
-  import React, { PropTypes, Component } from 'react';
+class _${1:ClassName} extends Component {
 
-  class _${1:ClassName} extends Component {
-
-    render() {
-      return (
-        ${0:<div />}
-      );
-    }
+  render() {
+    return (
+      ${0:<div />}
+    );
   }
+}
 
-  export default _$1;
+export default _$1;
 endsnippet
 
 snippet cc
-  class _${1:ClassName} extends Component {
+class _${1:ClassName} extends Component {
 
-    render() {
-      return (
-        ${0:<div />}
-      );
-    }
+  render() {
+    return (
+      ${0:<div />}
+    );
   }
+}
 
-  export default _$1;
+export default _$1;
 endsnippet
 
 snippet ren
-  render() {
-    return (
-      ${1:<div />}
-    );
-  }
+render() {
+  return (
+    ${1:<div />}
+  );
+}
 endsnippet
 
 snippet sst
-  setState({
-    ${1}: ${2}
-  });
+setState({
+  ${1}: ${2}
+});
 endsnippet
 
 snippet scu
-  shouldComponentUpdate(nextProps, nextState) {
-    ${1}
-  }
+shouldComponentUpdate(nextProps, nextState) {
+  ${1}
+}
 endsnippet
 
 snippet props
-  this.props.${1}
+this.props.${1}
 endsnippet
 
 snippet state
-  this.state.${1}
+this.state.${1}
 endsnippet
 
 snippet trp
-  transferPropsTo(${1});
+transferPropsTo(${1});
 endsnippet
