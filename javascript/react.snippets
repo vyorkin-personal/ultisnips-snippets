@@ -104,6 +104,16 @@ class ${1:ClassName} extends Component {
 export default $1;
 endsnippet
 
+snippet ccp "Create pure React component"
+import React from 'react';
+
+const ${1:ClassName} = (props) => {
+  return (${0:<div />});
+}
+
+export default $1;
+endsnippet
+
 snippet ren
 render() {
   return (

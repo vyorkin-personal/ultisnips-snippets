@@ -1,0 +1,8 @@
+snippet ccpc "Create pure React component & connect it to Redux"
+import React from 'react';
+
+const ${1:ClassName} = (props) => {
+  return (${0:<div />});
+}
+export default connect(s => ${2:s})($1);
+endsnippet
